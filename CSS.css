@@ -15,7 +15,7 @@
     --operator_color: #FFFFFF;
     --font_color: #FFFFFF;
     --variable2_color: #FFFFFF;
-    --box_color: #4C4C4C;
+    --box_color: #000000;
 }
 
 
@@ -83,6 +83,10 @@
 
 .cm-s-jupyter span.cm-property{
     color: var(--property_color);
+}
+
+.CodeMirror pre.CodeMirror-line {
+    color: white;
 }
 
 .cm-s-jupyter span.cm-builtin{
