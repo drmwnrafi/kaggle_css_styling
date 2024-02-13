@@ -15,7 +15,7 @@ ChatGPT Color Scheme Reference:
 
 from IPython.core.display import HTML
 with open('./CSS.css', 'r') as file:
-custom_css = file.read()
+  custom_css = file.read()
 
 HTML(custom_css)
 ```
