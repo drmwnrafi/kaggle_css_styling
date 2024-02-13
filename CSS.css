@@ -110,6 +110,58 @@ body[data-jp-theme-light="true"] .jp-Notebook .CodeMirror.cm-s-jupyter{
     background-color: var(--box_color) !important;
 }
 
+.highlight .nn, .viewer-iframe-light-theme .highlight .nn{
+    color: white;
+}
+.highlight .sa{
+    color: var(--font_color);
+}
+    
+.viewer-iframe-light-theme .highlight .nf
+{
+  color: var(--def_color);
+}
+    
+.viewer-iframe-light-theme .highlight .kn
+{
+  color: var(--keyword_color);
+}
+    
+.viewer-iframe-light-theme .highlight .k
+{
+  color: var(--keyword_color);
+}
+    
+.viewer-iframe-light-theme .highlight .n
+{
+    color: var(--font_color);
+}
+
+.viewer-iframe-light-theme .highlight .o
+{
+    color: var(--font_color);
+}
+
+.viewer-iframe-light-theme .highlight .p
+{
+    color: var(--font_color);
+}
+
+.viewer-iframe-light-theme .highlight .s1
+{
+    color: var(--string_color);
+}
+
+.viewer-iframe-light-theme .highlight .kc
+{
+    color: var(--keyword_color);
+}
+    
+.highlight .c1, .viewer-iframe-light-theme .highlight .c1
+{
+    color: var(--comment_color);
+}
+
 /* body[data-jp-theme-light="true"] .lm-Widget.p-Widget.jp-CodeMirrorEditor.jp-Editor.jp-InputArea-editor { */
 /*     border-color: #9b9b99 !important; */
 /*     border-style: solid none none !important; */
